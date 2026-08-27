@@ -1,0 +1,27 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npmrc
+5 silly config load:file:C:\Users\jayp.JAY\.npmrc
+6 silly config load:file:C:\Users\jayp.JAY\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npm-cache\_logs\2026-08-26T17_38_49_627Z-
+10 verbose logfile C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npm-cache\_logs\2026-08-26T17_38_49_627Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 verbose stack Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\node_modules\next\dist\esm\api'
+15 error code ENOTEMPTY
+16 error syscall rmdir
+17 error path C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\node_modules\next\dist\esm\api
+18 error errno -4051
+19 error ENOTEMPTY: directory not empty, rmdir 'C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\node_modules\next\dist\esm\api'
+20 verbose cwd C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend
+21 verbose os Windows_NT 10.0.26200
+22 verbose node v22.18.0
+23 verbose npm  v10.9.3
+24 verbose exit -4051
+25 verbose code -4051
+26 error A complete log of this run can be found in: C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npm-cache\_logs\2026-08-26T17_38_49_627Z-debug-0.log

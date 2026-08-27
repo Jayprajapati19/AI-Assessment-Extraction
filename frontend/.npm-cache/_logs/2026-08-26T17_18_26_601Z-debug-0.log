@@ -1,0 +1,587 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npmrc
+5 silly config load:file:C:\Users\jayp.JAY\.npmrc
+6 silly config load:file:C:\Users\jayp.JAY\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--loglevel" "verbose"
+9 verbose logfile logs-max:10 dir:C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npm-cache\_logs\2026-08-26T17_18_26_601Z-
+10 verbose logfile C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npm-cache\_logs\2026-08-26T17_18_26_601Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest next@16.3.3
+15 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/next 3243ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/next set size:31164788 disposed:false
+18 silly fetch manifest @opentelemetry/api@^1.1.0
+19 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 390ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:272967 disposed:false
+22 silly fetch manifest @playwright/test@^1.51.1
+23 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 193ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9453879 disposed:false
+26 silly fetch manifest babel-plugin-react-compiler@*
+27 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 221ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:1356999 disposed:false
+30 silly fetch manifest react@19.2.8
+31 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+32 http cache https://registry.npmjs.org/react 46ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/react set size:6917274 disposed:false
+34 silly fetch manifest react-dom@19.2.8
+35 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/react-dom 1686ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9298448 disposed:false
+38 silly fetch manifest sass@^1.3.0
+39 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/sass 265ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/sass set size:747752 disposed:false
+42 silly placeDep ROOT next@16.3.3 REPLACE for: frontend@0.1.0 want: 16.3.3
+43 silly fetch manifest postcss@8.5.23
+44 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+45 silly fetch manifest @next/swc-darwin-x64@16.3.3
+46 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+47 silly fetch manifest @next/swc-darwin-arm64@16.3.3
+48 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+49 silly fetch manifest @next/swc-linux-x64-gnu@16.3.3
+50 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+51 silly fetch manifest @next/swc-linux-x64-musl@16.3.3
+52 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+53 silly fetch manifest @next/swc-linux-arm64-gnu@16.3.3
+54 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+55 silly fetch manifest @next/swc-linux-arm64-musl@16.3.3
+56 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+57 silly fetch manifest @next/swc-win32-arm64-msvc@16.3.3
+58 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/postcss 2144ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmjs.org/postcss set size:760024 disposed:false
+61 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 4007ms (cache revalidated)
+62 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5374992 disposed:false
+63 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 4072ms (cache revalidated)
+64 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5405281 disposed:false
+65 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 4120ms (cache revalidated)
+66 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5443473 disposed:false
+67 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 4181ms (cache revalidated)
+68 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5424073 disposed:false
+69 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 4285ms (cache revalidated)
+70 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5619333 disposed:false
+71 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 4362ms (cache revalidated)
+72 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5506161 disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 4439ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5566147 disposed:false
+75 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.3.3
+76 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 2389ms (cache revalidated)
+78 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:3012079 disposed:false
+79 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.3.3
+80 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 2943ms (cache revalidated)
+82 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:3076242 disposed:false
+83 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.3.3
+84 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 2814ms (cache revalidated)
+86 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:3064705 disposed:false
+87 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.3.3
+88 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 5759ms (cache revalidated)
+90 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:3046621 disposed:false
+91 silly fetch manifest @tailwindcss/oxide-linux-x64-gnu@4.3.3
+92 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 2265ms (cache revalidated)
+94 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu set size:3037338 disposed:false
+95 silly fetch manifest @tailwindcss/oxide-wasm32-wasi@4.3.3
+96 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 1500ms (cache revalidated)
+98 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi set size:1592948 disposed:false
+99 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.3.3
+100 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 1614ms (cache revalidated)
+102 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:2990990 disposed:false
+103 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.3.3
+104 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 811ms (cache revalidated)
+106 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:2130381 disposed:false
+107 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3
+108 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 4201ms (cache revalidated)
+110 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:3090937 disposed:false
+111 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.3.3
+112 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 3126ms (cache revalidated)
+114 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:2975821 disposed:false
+115 silly fetch manifest @tailwindcss/oxide-android-arm64@4.3.3
+116 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 934ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:2153161 disposed:false
+119 silly placeDep ROOT @tailwindcss/oxide-android-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+120 silly placeDep ROOT @tailwindcss/oxide-darwin-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+121 silly placeDep ROOT @tailwindcss/oxide-darwin-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+122 silly placeDep ROOT @tailwindcss/oxide-freebsd-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+123 silly placeDep ROOT @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+124 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+125 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+126 silly placeDep ROOT @tailwindcss/oxide-linux-x64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+127 silly placeDep ROOT @tailwindcss/oxide-linux-x64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+128 silly placeDep ROOT @tailwindcss/oxide-wasm32-wasi@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+129 silly placeDep ROOT @tailwindcss/oxide-win32-arm64-msvc@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+130 silly fetch manifest lightningcss-darwin-x64@1.32.0
+131 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 2337ms (cache revalidated)
+133 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:80374 disposed:false
+134 silly fetch manifest lightningcss-linux-x64-gnu@1.32.0
+135 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 1701ms (cache revalidated)
+137 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:81819 disposed:false
+138 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+139 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 134ms (cache revalidated)
+141 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:28346 disposed:false
+142 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+143 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 663ms (cache revalidated)
+145 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:80970 disposed:false
+146 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+147 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 549ms (cache revalidated)
+149 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:82397 disposed:false
+150 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+151 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 192ms (cache revalidated)
+153 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:82635 disposed:false
+154 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+155 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 222ms (cache revalidated)
+157 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:82617 disposed:false
+158 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+159 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 138ms (cache revalidated)
+161 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:82032 disposed:false
+162 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+163 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 102ms (cache revalidated)
+165 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:44564 disposed:false
+166 silly fetch manifest lightningcss-android-arm64@1.32.0
+167 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 167ms (cache revalidated)
+169 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:9371 disposed:false
+170 silly placeDep ROOT lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+171 silly placeDep ROOT lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+172 silly placeDep ROOT lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+173 silly placeDep ROOT lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+174 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+175 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+176 silly placeDep ROOT lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+177 silly placeDep ROOT lightningcss-linux-x64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+178 silly placeDep ROOT lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+179 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+180 silly placeDep ROOT @next/swc-darwin-arm64@16.3.3 OK for: next@16.3.3 want: 16.3.3
+181 silly placeDep ROOT @next/swc-darwin-x64@16.3.3 OK for: next@16.3.3 want: 16.3.3
+182 silly placeDep ROOT @next/swc-linux-arm64-gnu@16.3.3 OK for: next@16.3.3 want: 16.3.3
+183 silly placeDep ROOT @next/swc-linux-arm64-musl@16.3.3 OK for: next@16.3.3 want: 16.3.3
+184 silly placeDep ROOT @next/swc-linux-x64-gnu@16.3.3 OK for: next@16.3.3 want: 16.3.3
+185 silly placeDep ROOT @next/swc-linux-x64-musl@16.3.3 OK for: next@16.3.3 want: 16.3.3
+186 silly placeDep ROOT @next/swc-win32-arm64-msvc@16.3.3 OK for: next@16.3.3 want: 16.3.3
+187 silly placeDep node_modules/next postcss@8.5.23 OK for: next@16.3.3 want: 8.5.23
+188 silly fetch manifest @unrs/resolver-binding-darwin-arm64@1.12.2
+189 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 cache-miss
+190 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 17ms (cache hit)
+191 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-arm64 set size:63676 disposed:false
+192 silly fetch manifest @unrs/resolver-binding-android-arm64@1.12.2
+193 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 cache-miss
+194 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 62ms (cache hit)
+195 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm64 set size:17616 disposed:false
+196 silly fetch manifest @unrs/resolver-binding-win32-arm64-msvc@1.12.2
+197 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc cache-miss
+198 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc 60ms (cache hit)
+199 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-arm64-msvc set size:64613 disposed:false
+200 silly fetch manifest @unrs/resolver-binding-linux-arm64-gnu@1.12.2
+201 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu cache-miss
+202 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu 23ms (cache hit)
+203 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-gnu set size:65047 disposed:false
+204 silly fetch manifest @unrs/resolver-binding-linux-arm64-musl@1.12.2
+205 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl cache-miss
+206 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl 30ms (cache hit)
+207 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm64-musl set size:65257 disposed:false
+208 silly fetch manifest @unrs/resolver-binding-openharmony-arm64@1.12.2
+209 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 cache-miss
+210 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 41ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-openharmony-arm64 set size:7350 disposed:false
+212 silly fetch manifest @unrs/resolver-binding-android-arm-eabi@1.12.2
+213 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi cache-miss
+214 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi 50ms (cache hit)
+215 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-android-arm-eabi set size:17797 disposed:false
+216 silly fetch manifest @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2
+217 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf cache-miss
+218 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf 25ms (cache hit)
+219 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-gnueabihf set size:65279 disposed:false
+220 silly fetch manifest @unrs/resolver-binding-linux-arm-musleabihf@1.12.2
+221 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf cache-miss
+222 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf 28ms (cache hit)
+223 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-arm-musleabihf set size:65533 disposed:false
+224 silly fetch manifest @unrs/resolver-binding-win32-ia32-msvc@1.12.2
+225 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc cache-miss
+226 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc 27ms (cache hit)
+227 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-win32-ia32-msvc set size:64317 disposed:false
+228 silly fetch manifest @unrs/resolver-binding-linux-loong64-gnu@1.12.2
+229 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu cache-miss
+230 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu 24ms (cache hit)
+231 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-gnu set size:4107 disposed:false
+232 silly fetch manifest @unrs/resolver-binding-linux-loong64-musl@1.12.2
+233 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl cache-miss
+234 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl 20ms (cache hit)
+235 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-loong64-musl set size:4124 disposed:false
+236 silly fetch manifest @unrs/resolver-binding-linux-ppc64-gnu@1.12.2
+237 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu cache-miss
+238 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu 20ms (cache hit)
+239 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-ppc64-gnu set size:65057 disposed:false
+240 silly fetch manifest @unrs/resolver-binding-linux-riscv64-gnu@1.12.2
+241 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu cache-miss
+242 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu 20ms (cache hit)
+243 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-gnu set size:56387 disposed:false
+244 silly fetch manifest @unrs/resolver-binding-linux-riscv64-musl@1.12.2
+245 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl cache-miss
+246 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl 30ms (cache hit)
+247 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-riscv64-musl set size:45710 disposed:false
+248 silly fetch manifest @unrs/resolver-binding-linux-s390x-gnu@1.12.2
+249 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu cache-miss
+250 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu 26ms (cache hit)
+251 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-s390x-gnu set size:65047 disposed:false
+252 silly fetch manifest @unrs/resolver-binding-wasm32-wasi@1.12.2
+253 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi cache-miss
+254 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi 28ms (cache hit)
+255 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-wasm32-wasi set size:67358 disposed:false
+256 silly fetch manifest @unrs/resolver-binding-darwin-x64@1.12.2
+257 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 cache-miss
+258 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 20ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-darwin-x64 set size:63092 disposed:false
+260 silly fetch manifest @unrs/resolver-binding-freebsd-x64@1.12.2
+261 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 cache-miss
+262 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 59ms (cache hit)
+263 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-freebsd-x64 set size:63388 disposed:false
+264 silly fetch manifest @unrs/resolver-binding-linux-x64-gnu@1.12.2
+265 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu cache-miss
+266 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu 31ms (cache hit)
+267 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-gnu set size:64469 disposed:false
+268 silly fetch manifest @unrs/resolver-binding-linux-x64-musl@1.12.2
+269 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl cache-miss
+270 http cache https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl 594ms (cache hit)
+271 silly packumentCache full:https://registry.npmjs.org/@unrs%2fresolver-binding-linux-x64-musl set size:64685 disposed:false
+272 silly placeDep ROOT @unrs/resolver-binding-android-arm-eabi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+273 silly placeDep ROOT @unrs/resolver-binding-android-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+274 silly placeDep ROOT @unrs/resolver-binding-darwin-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+275 silly placeDep ROOT @unrs/resolver-binding-darwin-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+276 silly placeDep ROOT @unrs/resolver-binding-freebsd-x64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+277 silly placeDep ROOT @unrs/resolver-binding-linux-arm-gnueabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+278 silly placeDep ROOT @unrs/resolver-binding-linux-arm-musleabihf@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+279 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+280 silly placeDep ROOT @unrs/resolver-binding-linux-arm64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+281 silly placeDep ROOT @unrs/resolver-binding-linux-loong64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+282 silly placeDep ROOT @unrs/resolver-binding-linux-loong64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+283 silly placeDep ROOT @unrs/resolver-binding-linux-ppc64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+284 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+285 silly placeDep ROOT @unrs/resolver-binding-linux-riscv64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+286 silly placeDep ROOT @unrs/resolver-binding-linux-s390x-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+287 silly placeDep ROOT @unrs/resolver-binding-linux-x64-gnu@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+288 silly placeDep ROOT @unrs/resolver-binding-linux-x64-musl@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+289 silly placeDep ROOT @unrs/resolver-binding-openharmony-arm64@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+290 silly placeDep ROOT @unrs/resolver-binding-wasm32-wasi@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+291 silly placeDep ROOT @unrs/resolver-binding-win32-arm64-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+292 silly placeDep ROOT @unrs/resolver-binding-win32-ia32-msvc@1.12.2 OK for: unrs-resolver@1.12.2 want: 1.12.2
+293 silly fetch manifest @emnapi/runtime@1.10.0
+294 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+295 http cache https://registry.npmjs.org/@emnapi%2fruntime 270ms (cache hit)
+296 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:125040 disposed:false
+297 silly placeDep node_modules/@unrs/resolver-binding-wasm32-wasi @emnapi/runtime@1.10.0 OK for: @unrs/resolver-binding-wasm32-wasi@1.12.2 want: 1.10.0
+298 silly reify mark retired [
+298 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\next'
+298 silly reify ]
+299 silly reify mark retired [
+299 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-darwin-arm64'
+299 silly reify ]
+300 silly reify mark retired [
+300 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-darwin-x64'
+300 silly reify ]
+301 silly reify mark retired [
+301 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-arm64-musl'
+301 silly reify ]
+302 silly reify mark retired [
+302 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-arm64-gnu'
+302 silly reify ]
+303 silly reify mark retired [
+303 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-x64-musl'
+303 silly reify ]
+304 silly reify mark retired [
+304 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-x64-gnu'
+304 silly reify ]
+305 silly reify mark retired [
+305 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-win32-arm64-msvc'
+305 silly reify ]
+306 silly reify mark retired [
+306 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\baseline-browser-mapping',
+306 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\baseline-browser-mapping',
+306 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+306 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+306 silly reify ]
+307 silly reify mark retired [
+307 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\browserslist',
+307 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\browserslist',
+307 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\browserslist.cmd',
+307 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\browserslist.ps1'
+307 silly reify ]
+308 silly reify mark retired [
+308 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\semver',
+308 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver',
+308 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.cmd',
+308 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.ps1'
+308 silly reify ]
+309 silly reify mark retired [
+309 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\eslint',
+309 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\eslint',
+309 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\eslint.cmd',
+309 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\eslint.ps1'
+309 silly reify ]
+310 silly reify mark retired [
+310 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\acorn',
+310 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\acorn',
+310 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\acorn.cmd',
+310 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\acorn.ps1'
+310 silly reify ]
+311 silly reify mark retired [
+311 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\json5',
+311 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\json5',
+311 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\json5.cmd',
+311 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\json5.ps1'
+311 silly reify ]
+312 silly reify mark retired [
+312 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\js-yaml',
+312 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\js-yaml',
+312 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\js-yaml.cmd',
+312 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\js-yaml.ps1'
+312 silly reify ]
+313 silly reify mark retired [
+313 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\loose-envify',
+313 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\loose-envify',
+313 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\loose-envify.cmd',
+313 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\loose-envify.ps1'
+313 silly reify ]
+314 silly reify mark retired [
+314 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\nanoid',
+314 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\nanoid',
+314 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\nanoid.cmd',
+314 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\nanoid.ps1'
+314 silly reify ]
+315 silly reify mark retired [
+315 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\napi-postinstall',
+315 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\napi-postinstall',
+315 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\napi-postinstall.cmd',
+315 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\napi-postinstall.ps1'
+315 silly reify ]
+316 silly reify mark retired [
+316 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\resolve',
+316 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\resolve',
+316 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\resolve.cmd',
+316 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\resolve.ps1'
+316 silly reify ]
+317 silly reify mark retired [
+317 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\jiti',
+317 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jiti',
+317 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jiti.cmd',
+317 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jiti.ps1'
+317 silly reify ]
+318 silly reify mark retired [
+318 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\semver',
+318 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver',
+318 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.cmd',
+318 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.ps1'
+318 silly reify ]
+319 silly reify mark retired [
+319 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\json5',
+319 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5',
+319 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd',
+319 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1'
+319 silly reify ]
+320 silly reify mark retired [
+320 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\semver',
+320 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\semver',
+320 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\semver.cmd',
+320 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\semver.ps1'
+320 silly reify ]
+321 silly reify mark retired [
+321 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\update-browserslist-db',
+321 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\update-browserslist-db',
+321 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\update-browserslist-db.cmd',
+321 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\update-browserslist-db.ps1'
+321 silly reify ]
+322 silly reify mark retired [
+322 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\unrs-resolver\\node_modules\\@emnapi\\runtime'
+322 silly reify ]
+323 silly reify mark retired [
+323 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\which',
+323 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\node-which',
+323 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\node-which.cmd',
+323 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\node-which.ps1'
+323 silly reify ]
+324 silly reify mark retired [
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\typescript',
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsc',
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsc.cmd',
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsc.ps1',
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsserver',
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsserver.cmd',
+324 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsserver.ps1'
+324 silly reify ]
+325 silly reify mark retired [
+325 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\runtime'
+325 silly reify ]
+326 silly reify mark retired [
+326 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\wasi-threads'
+326 silly reify ]
+327 silly reify mark retired [
+327 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\jsesc',
+327 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jsesc',
+327 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jsesc.cmd',
+327 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jsesc.ps1'
+327 silly reify ]
+328 silly reify mark retired [
+328 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\core'
+328 silly reify ]
+329 silly reify mark retired [
+329 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@napi-rs\\wasm-runtime'
+329 silly reify ]
+330 silly reify mark retired [
+330 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@tybys\\wasm-util'
+330 silly reify ]
+331 silly reify mark retired [
+331 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\semver',
+331 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver',
+331 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.cmd',
+331 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.ps1'
+331 silly reify ]
+332 silly reify mark retired [
+332 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@babel\\parser',
+332 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\parser',
+332 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\parser.cmd',
+332 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\parser.ps1'
+332 silly reify ]
+333 silly reify moves {
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\next': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.next-sNMn1S2x',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-darwin-arm64': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-darwin-arm64-V6u2B9yE',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-darwin-x64': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-darwin-x64-eLe0QIoP',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-arm64-musl': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-linux-arm64-musl-lf9kjmJt',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-arm64-gnu': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-linux-arm64-gnu-9sF0h5Ax',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-x64-musl': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-linux-x64-musl-WIqPpElZ',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-linux-x64-gnu': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-linux-x64-gnu-2eaHGC2D',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\swc-win32-arm64-msvc': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@next\\.swc-win32-arm64-msvc-bSmb3d3U',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\baseline-browser-mapping': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.baseline-browser-mapping-2cDVb5U2',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.baseline-browser-mapping-a6eDgB85',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.baseline-browser-mapping.cmd-YRkwdjgu',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.baseline-browser-mapping.ps1-RBEbwqbm',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\browserslist': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.browserslist-DmW1QwRk',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\browserslist': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.browserslist-BO0X4iWI',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.browserslist.cmd-u2jqeIzc',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.browserslist.ps1-kWopgkwh',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.semver-U4IQhEal',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver-bZcCKy2N',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver.cmd-sP6ItVeS',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver.ps1-nEd19r5x',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\eslint': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.eslint-URl8xIED',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\eslint': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.eslint-lGfacJ9v',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.eslint.cmd-mza8bv1o',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.eslint.ps1-brQlpvvx',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\acorn': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.acorn-qZZEIYRn',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\acorn': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.acorn-QuHXBCkk',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.acorn.cmd-biLyOBWH',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.acorn.ps1-FayCG4W3',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\json5': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.json5-A48ZHyxt',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\json5': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.json5-nIhi882g',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.json5.cmd-MvERXELf',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.json5.ps1-4K2Xtas0',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\js-yaml': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.js-yaml-1NkKzoXm',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\js-yaml': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.js-yaml-LcvWrc5S',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.js-yaml.cmd-kwDrXJbJ',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.js-yaml.ps1-udjuXRpa',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\loose-envify': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.loose-envify-pFmDY0W2',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\loose-envify': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.loose-envify-DlwaqbL8',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.loose-envify.cmd-05KxeOeW',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.loose-envify.ps1-jBX26JN7',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\nanoid': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.nanoid-Lt5stPbk',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\nanoid': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.nanoid-dlTzlS79',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.nanoid.cmd-icOxPhHe',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.nanoid.ps1-w82rQsDy',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\napi-postinstall': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.napi-postinstall-EfYFgQQl',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\napi-postinstall': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.napi-postinstall-6FWatr6n',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\napi-postinstall.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.napi-postinstall.cmd-dObNc6BN',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\napi-postinstall.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.napi-postinstall.ps1-mTznStt1',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\resolve': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.resolve-nq7h1Y1S',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\resolve': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.resolve-8gMeAuhB',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.resolve.cmd-qXgL1dVj',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.resolve.ps1-EMQE1A5w',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\jiti': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.jiti-KGq66hNx',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jiti': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.jiti-dsgylPUQ',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.jiti.cmd-e9SFRtDu',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.jiti.ps1-rRUuOLKW',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.semver-jjEipUDK',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\.semver-QYDftA7I',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\.semver.cmd-zTj7U2y6',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\sharp\\node_modules\\.bin\\.semver.ps1-wu7xwaog',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\json5': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.json5-4f7sMiZy',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5-Mt8yGpZg',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.cmd-fvL0qQBA',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.ps1-QXmhQA67',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.semver-AMBDyUe0',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.semver-oE1rUecv',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.semver.cmd-2e4rw9Ng',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.semver.ps1-6ZDBlmF5',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\update-browserslist-db': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.update-browserslist-db-BtF0erI1',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.update-browserslist-db-E2qhzBRa',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.update-browserslist-db.cmd-AyczxNxy',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.update-browserslist-db.ps1-xxjH18sc',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\unrs-resolver\\node_modules\\@emnapi\\runtime': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\unrs-resolver\\node_modules\\@emnapi\\.runtime-0IecXTpn',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\which': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.which-5eobpmeh',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\node-which': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.node-which-L0c2AH1z',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.node-which.cmd-I3Bsysww',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.node-which.ps1-ykhFviN5',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\typescript': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.typescript-3WEOWas6',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsc': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.tsc-CTyyJ0MC',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.tsc.cmd-ZLQIsraq',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.tsc.ps1-IFygwidK',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsserver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.tsserver-I7YF26Us',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.tsserver.cmd-Anf3BeQy',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.tsserver.ps1-HHJyWFIC',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\runtime': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\.runtime-8QDMSNBi',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\wasi-threads': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\.wasi-threads-R5113rXC',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\jsesc': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.jsesc-PDxB1OxY',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jsesc': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.jsesc-dEg5FxJo',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.jsesc.cmd-zNxsSW35',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.jsesc.ps1-9LRbkFuz',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\core': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@emnapi\\.core-BFJrSyCm',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@napi-rs\\wasm-runtime': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@napi-rs\\.wasm-runtime-uhOGzQJy',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@tybys\\wasm-util': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@tybys\\.wasm-util-src4F5hk',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.semver-wNtuxsKy',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver-k1yWzlnf',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver.cmd-0u3Kihy1',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver.ps1-LzSO0e89',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@babel\\parser': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\@babel\\.parser-aktWRX0z',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\parser': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.parser-JhzNC96A',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.parser.cmd-mZ3Zdiat',
+333 silly reify   'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\jayp.JAY\\OneDrive\\Desktop\\AI Assessment Extraction\\frontend\\node_modules\\.bin\\.parser.ps1-rqgp2EWI'
+333 silly reify }
+334 verbose stack Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\node_modules\next\dist\esm\server\request'
+335 error code ENOTEMPTY
+336 error syscall rmdir
+337 error path C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\node_modules\next\dist\esm\server\request
+338 error errno -4051
+339 error ENOTEMPTY: directory not empty, rmdir 'C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\node_modules\next\dist\esm\server\request'
+340 silly unfinished npm timer reify 1787764708794
+341 silly unfinished npm timer reify:retireShallow 1787764758939
+342 verbose cwd C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend
+343 verbose os Windows_NT 10.0.26200
+344 verbose node v22.18.0
+345 verbose npm  v10.9.3
+346 verbose exit -4051
+347 verbose code -4051
+348 error A complete log of this run can be found in: C:\Users\jayp.JAY\OneDrive\Desktop\AI Assessment Extraction\frontend\.npm-cache\_logs\2026-08-26T17_18_26_601Z-debug-0.log
